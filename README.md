@@ -51,3 +51,14 @@ En esta sección podrás encontrar los manuales y tutoriales de los productos de
 <p>Se debe esperar unos minutos y despu&eacute;s iniciar&aacute; el panel de Anaconda, junto con las diferentes aplicaciones y ambientes.</p>
 <img src="https://user-images.githubusercontent.com/100595316/204347520-12895901-82e5-4b5b-b972-e54b2417668c.png">
 <p>Con esto, se terminar&iacute;a la instalaci&oacute;n de Anaconda. En el siguiente tutorial se explicar&aacute; la instalaci&oacute;n de ambientes en python.</p>
+
+## 2. Manual de instalación de ambientes o entornos virtuales de Python 
+<p>Python, como lenguaje de programaci&oacute;n, usualmente trabaja con diferentes cajas de herramientas y librer&iacute;as. Para ejecutar los diferentes c&oacute;digos y herramientas desarrolladas para el proyecto, es necesario instalar un listado de librer&iacute;as y cajas de herramientas requeridas en diferentes versiones. Debido a que son bastantes librer&iacute;as para instalar, se han desarrollado <strong>ambientes virtuales</strong> que compilan las herramientas necesarias para ejecutar los c&oacute;digos. Por lo tanto, un ambiente virtual es un directorio de librer&iacute;as y cajas de herramientas, con versiones espec&iacute;ficas, que permiten ejecutar herramientas espec&iacute;ficas, para problemas particulares.</p>
+<p>Para el producto del proyecto "Monitoreo Satelital de Lagos Glaciares de la Regi&oacute;n de Ays&eacute;n", se ha desarrollado un ambiente espec&iacute;fico, con una serie de librer&iacute;as y herramientas requeridas para ejecutar las herramientas desarrolladas en el proyecto.</p>
+<p>El ambiente virtual preparado para el proyecto es el siguiente:</p>
+(https://github.com/LagosGlaciaresAysen/manuales/files/10106834/ambiente.zip)
+<p>El archivo se encuentra comprimido, lo cual requiere descomprimirlo en cualquier programa especifico (ejemplo: winrar, winzip, etc). Una vez que descompriman la carpeta, encontrar&aacute;n un archivo con el nombre de &ldquo;eeDGA.yml&rdquo;. El cual contiene el directorio de las librer&iacute;as para instalar.</p>
+<img src="https://user-images.githubusercontent.com/100595316/204365097-9fbdd36a-fede-461e-8afb-f2923c9373ce.png">
+   
+   
+<pre><span class="n">conda</span> <span class="n">env</span> <span class="n">create</span> <span class="o">-</span><span class="n">f</span> <span class="n">environment</span><span class="o">.</span><span class="n">yml</span></pre>
