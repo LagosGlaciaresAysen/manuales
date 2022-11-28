@@ -56,9 +56,23 @@ En esta sección podrás encontrar los manuales y tutoriales de los productos de
 <p>Python, como lenguaje de programaci&oacute;n, usualmente trabaja con diferentes cajas de herramientas y librer&iacute;as. Para ejecutar los diferentes c&oacute;digos y herramientas desarrolladas para el proyecto, es necesario instalar un listado de librer&iacute;as y cajas de herramientas requeridas en diferentes versiones. Debido a que son bastantes librer&iacute;as para instalar, se han desarrollado <strong>ambientes virtuales</strong> que compilan las herramientas necesarias para ejecutar los c&oacute;digos. Por lo tanto, un ambiente virtual es un directorio de librer&iacute;as y cajas de herramientas, con versiones espec&iacute;ficas, que permiten ejecutar herramientas espec&iacute;ficas, para problemas particulares.</p>
 <p>Para el producto del proyecto "Monitoreo Satelital de Lagos Glaciares de la Regi&oacute;n de Ays&eacute;n", se ha desarrollado un ambiente espec&iacute;fico, con una serie de librer&iacute;as y herramientas requeridas para ejecutar las herramientas desarrolladas en el proyecto.</p>
 <p>El ambiente virtual preparado para el proyecto es el siguiente:</p>
-(https://github.com/LagosGlaciaresAysen/manuales/files/10106834/ambiente.zip)
+(https://github.com/LagosGlaciaresAysen/manuales/files/10106834/ambiente.zip)</p>
 <p>El archivo se encuentra comprimido, lo cual requiere descomprimirlo en cualquier programa especifico (ejemplo: winrar, winzip, etc). Una vez que descompriman la carpeta, encontrar&aacute;n un archivo con el nombre de &ldquo;eeDGA.yml&rdquo;. El cual contiene el directorio de las librer&iacute;as para instalar.</p>
-<img src="https://user-images.githubusercontent.com/100595316/204365097-9fbdd36a-fede-461e-8afb-f2923c9373ce.png">
-   
-   
-<pre><span class="n">conda</span> <span class="n">env</span> <span class="n">create</span> <span class="o">-</span><span class="n">f</span> <span class="n">environment</span><span class="o">.</span><span class="n">yml</span></pre>
+<img src="https://user-images.githubusercontent.com/100595316/204365097-9fbdd36a-fede-461e-8afb-f2923c9373ce.png" width="600"
+     height="400">
+<p>Para instalar este ambiente en el computador, se debe ejecutar <strong>Anaconda powershell prompt</strong> que se puede encontrar en <em>inicio/Anaconda3/Anaconda powershell prompt</em> o puede digitar su nombre en el buscador de Windows</p>
+<img src="https://user-images.githubusercontent.com/100595316/204366137-4a15078a-79ba-46ac-acf7-53400f8ceab4.png">
+<p>El ambiente de trabajo de Anaconda powershell prompt es una pantalla oscura, donde muestra un directorio base y se navega por medio de sistema de comandos.</p>
+<img src="https://user-images.githubusercontent.com/100595316/204366294-8a5657fb-f0c0-4014-adba-a0ffa4b200ea.png">
+<p>A continuaci&oacute;n, procedemos a instalar el ambiente &ldquo;eeDGA.yml&rdquo;, ingresando el siguiente c&oacute;digo:</p>
+<pre><span class="n">conda</span> <span class="n">env</span> <span class="n">create</span> <span class="o">-</span><span class="n">f</span> <span class="n">eeDGA</span><span class="o">.</span><span class="n">yml</span></pre>
+<p>Para conocer la ruta del archivo &ldquo;eeDGA.yml&rdquo;, abrir el explorador de archivos, ubicarse sobre el archivo &ldquo;eeDGA.yml&rdquo;, usar clic derecho + shift y en el panel de opciones indicar &ldquo;<em>copiar como ruta de acceso</em>&rdquo;</p>
+<img src="https://user-images.githubusercontent.com/100595316/204367094-47c82e0c-d747-4396-8ef8-e56cf77b3dbf.png">
+<p>Finalmente reemplazan en el c&oacute;digo <em>eeDGA.yml</em>&nbsp; por la ruta que reci&eacute;n copiaron.</p>
+<img src="https://user-images.githubusercontent.com/100595316/204368529-8de8f505-bc57-4fda-92ae-f99ed69e2f70.png">
+<p>El programa iniciar&aacute; a instalar el ambiente. Este proceso toma varios minutos. Al final, aparecer&aacute; un mensaje de <em>done</em> y dar&aacute; las indicaciones para activar/desactivar el ambiente. Volver&aacute; a aparecer la l&iacute;nea de comando inicial.</p>
+<img src="https://user-images.githubusercontent.com/100595316/204372884-34d593da-afc0-4183-8f6d-c2b9c10ed84b.png">
+<p>Finalmente, para comprobar si la instalaci&oacute;n del ambiente fue correcta, escribir el siguiente c&oacute;digo en el <em>Anaconda powershell prompt</em>:</p>
+<pre><span class="n">conda</span> activate eeDGA</pre></p>
+<p>Si el ambiente qued&oacute; instalado correctamente, cambiar&aacute; el nombre de <em>&ldquo;(base)&rdquo;</em> a <em>&ldquo;(eeDGA)&rdquo;</em></p>
+<img src="https://user-images.githubusercontent.com/100595316/204373261-c8459904-79c4-49e9-98f4-48a1645fbb76.png">
